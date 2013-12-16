@@ -20,13 +20,22 @@ WOLog.factory("stateService", function ($http) {
         }
     ];
 
+    var currentExercise = null;
+
     functions.getExercises = function(){
         return exercises;
     };
 
     functions.addExercise = function(exercise){
-        console.log(exercise);
         exercises.push(exercise);
+    };
+
+    functions.setCurrentExercise = function(exercise){
+        currentExercise = exercise;
+    };
+
+    functions.getCurrentExercise = function(){
+        return currentExercise;
     };
 
     return {functions: functions};

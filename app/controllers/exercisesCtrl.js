@@ -1,6 +1,4 @@
-function exercisesCtrl($scope, $location, $modal, $log, stateService){
-
-
+function exercisesCtrl($scope, $location, $modal, stateService){
 
     $scope.exercises = stateService.functions.getExercises();
 

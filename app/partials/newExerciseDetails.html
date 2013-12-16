@@ -2,12 +2,13 @@
     <div class="row">
         <button class="pomegranate-flat-button" ng-click="redirect('newSession')">Cancel</button>
     </div>
+    <div class="row">
+        <h3>{{currentExercise.name}}</h3>
+    </div>
+    <div class="row">
+        <input class="form-control" type="number" />
+    </div>
     <div class="row add">
         <button class="nephritis-flat-button" ng-click="showModal()">Add Exercise</button>
-    </div>
-    <div class="list">
-        <div class="row" ng-repeat="exercise in exercises">
-            <button class="clouds-flat-button" ng-click="setCurrentExercise(exercise)">{{exercise.name}}</button>
-        </div>
     </div>
 </div>

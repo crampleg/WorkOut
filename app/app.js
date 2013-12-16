@@ -9,9 +9,6 @@ WOLog.config(function ($routeProvider){
     }).when("/exercises", {
         templateUrl:"app/partials/exercises.html",
         controller:"exercisesCtrl"
-    }).when("/addExercise", {
-        templateUrl:"app/partials/addExercise.html",
-        controller:"exercisesCtrl"
     }).when("/sessions", {
         templateUrl:"app/partials/sessions.html",
         controller:"sessionsCtrl"
@@ -20,6 +17,9 @@ WOLog.config(function ($routeProvider){
         controller:"sessionsCtrl"
     }).when("/newExercise", {
         templateUrl:"app/partials/newExercise.html",
+        controller:"sessionsCtrl"
+    }).when("/newExerciseDetails", {
+        templateUrl:"app/partials/newExerciseDetails.html",
         controller:"sessionsCtrl"
     }).otherwise({
         redirectTo:"/"
