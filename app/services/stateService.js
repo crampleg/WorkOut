@@ -24,10 +24,9 @@ WOLog.factory("stateService", function ($http) {
         return exercises;
     };
 
-    functions.addExercise = function(name){
-        exercises.push({
-            "name": name
-        })
+    functions.addExercise = function(exercise){
+        console.log(exercise);
+        exercises.push(exercise);
     };
 
     return {functions: functions};

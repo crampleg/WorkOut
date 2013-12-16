@@ -1,18 +1,16 @@
-<div class="exercise">
+<div class="container exercises">
+
     <div class="row">
-        <div class="col-xs-12">
-            <button class="btn btn-danger" ng-click="redirect('menu')">Tilbake</button>
-        </div>
+        <button class="pomegranate-flat-button" ng-click="redirect('menu')">Back</button>
     </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <button class="btn btn-success" ng-click="redirect('addExercise')">Ny Øvelse</button>
+    <div class="row add">
+        <button class="nephritis-flat-button" ng-click="showModal()">Add Exercise</button>
+    </div>
+    <div class="list">
+        <div class="row" ng-repeat="exercise in exercises">
+            <button class="clouds-flat-button">{{exercise.name}}</button>
         </div>
     </div>
 
-    <div class="row" ng-repeat="exercise in exercises">
-        <div class="col-xs-12">
-            <button class="btn btn-default">{{exercise.name}}</button>
-        </div>
-    </div>
 </div>
+

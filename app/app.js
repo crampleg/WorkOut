@@ -1,5 +1,5 @@
  <!-- Declare a module -->
-var WOLog = angular.module('WOLog', []);
+var WOLog = angular.module('WOLog', ['ui.bootstrap']);
 
 <!--Routing-->
 WOLog.config(function ($routeProvider){
@@ -8,16 +8,19 @@ WOLog.config(function ($routeProvider){
         controller:"menuCtrl"
     }).when("/exercises", {
         templateUrl:"app/partials/exercises.html",
-        controller:"exerciseCtrl"
+        controller:"exercisesCtrl"
     }).when("/addExercise", {
         templateUrl:"app/partials/addExercise.html",
-        controller:"addExerciseCtrl"
+        controller:"exercisesCtrl"
+    }).when("/sessions", {
+        templateUrl:"app/partials/sessions.html",
+        controller:"sessionsCtrl"
     }).when("/newSession", {
         templateUrl:"app/partials/newSession.html",
-        controller:"newSessionCtrl"
+        controller:"sessionsCtrl"
     }).when("/newExercise", {
         templateUrl:"app/partials/newExercise.html",
-        controller:"newExerciseCtrl"
+        controller:"sessionsCtrl"
     }).otherwise({
         redirectTo:"/"
     })
