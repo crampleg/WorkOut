@@ -10,11 +10,17 @@
         <input class="form-control" ng-model="sets" pattern="[0-9]*" id="tiZip" type="number"/>
     </div>
     <div class="row type">
-        <h4>Type</h4>
+        <h4>Weight</h4>
         <div class="btn-group btn-group-xs">
-            <button class="btn btn-default" ng-click="setType('time')">Time</button>
-            <button class="btn btn-default" ng-click="setType('weight')">Weight</button>
-            <button class="btn btn-default" ng-click="setType('both')">Both</button>
+            <button class="btn btn-default" ng-click="setWeight(false)">No</button>
+            <button class="btn btn-default" ng-click="setWeight(true)">Yes</button>
+        </div>
+    </div>
+    <div class="row type type2">
+        <h4>Time</h4>
+        <div class="btn-group btn-group-xs">
+            <button class="btn btn-default" ng-click="setTime(false)">No</button>
+            <button class="btn btn-default" ng-click="setTime(true)">Yes</button>
         </div>
     </div>
     <div class="row add">

@@ -51,14 +51,6 @@ body {
     height: 130px;
     border-bottom: 3px solid lightgray;
     padding-bottom: 10px;
-    .left {
-      position: absolute;
-      left: -15%;
-    }
-    .right {
-      position: absolute;
-      right: -15%;
-    }
     input{
       height: 40px;
       width: 30%;
@@ -66,20 +58,33 @@ body {
       display: inline-block;
       text-align: center;
     }
+    #weight {
+      position: absolute;
+      right: 30%;
+    }
+    #rep {
+      position: absolute;
+      left: 30%;
+    }
+
   }
   .type {
     display: inline-block;
     width: 100%;
     padding-bottom: 10px;
+    margin-top: 10px;
     .btn-group {
       text-align: center;
       display: inline-block;
-      width: 100%;
+      width: 70%;
       .btn {
-        width: 33.33%;
+        width: 50%;
         height: 40px;
       }
     }
+  }
+  .type2{
+    margin-bottom: 20px;
   }
 }
 

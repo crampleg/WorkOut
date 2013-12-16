@@ -25,19 +25,12 @@ function sessionsCtrl($scope, $location, $modal, stateService){
         $scope.redirect('newExerciseResults');
     };
 
-    $scope.setType = function(type){
-        $scope.time = false;
-        $scope.weight = false;
-        if(type == 'time'){
-            $scope.time = true;
-        }
-        else if (type == 'weight'){
-            $scope.weight = true;
-        }
-        else {
-            $scope.time = true;
-            $scope.weight = true;
-        }
+    $scope.setWeight = function(condition){
+        $scope.weight = condition;
+    };
+
+    $scope.setTime = function(condition){
+        $scope.time = condition;
     };
 
     $scope.showModal = function(){

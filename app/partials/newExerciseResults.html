@@ -8,28 +8,24 @@
     <div class="row set" ng-repeat="set in currentExercise.sets">
         <h4>{{ set.setName }}</h4>
         <div ng-show="currentExercise.weight && !currentExercise.time">
-            <div class="left">
-                <input class="form-control" ng-model="set.rep" pattern="[0-9]*" id="tiZip" type="number"/>
-                <h4 id="rep">rep</h4>
-            </div>
-            <div class="right">
-                <input class="form-control" ng-model="set.weight" pattern="[0-9]*" id="tiZip" type="number"/>
-                <h4 id="weight">kg</h4>
-            </div>
+            <input class="form-control" ng-model="set.rep" pattern="[0-9]*" id="tiZip" type="number"/>
+            <input class="form-control" ng-model="set.weight" pattern="[0-9]*" id="tiZip" type="number"/>
+            <h4 id="rep">rep</h4>
+            <h4 id="weight">kg</h4>
         </div>
         <div ng-show="!currentExercise.weight && currentExercise.time">
             <input class="form-control" ng-model="set.time" pattern="[0-9]*" id="tiZip" type="number"/>
             <h4 id="sec1">sec</h4>
         </div>
         <div ng-show="currentExercise.weight && currentExercise.time">
-            <div class="left">
-                <input class="form-control" ng-model="set.time" pattern="[0-9]*" id="tiZip" type="number"/>
-                <h4 id="sec2">sec</h4>
-            </div>
-            <div class="right">
-                <input class="form-control" ng-model="set.weight" pattern="[0-9]*" id="tiZip" type="number"/>
-                <h4 id="weight">kg</h4>
-            </div>
+            <input class="form-control" ng-model="set.time" pattern="[0-9]*" id="tiZip" type="number"/>
+            <input class="form-control" ng-model="set.weight" pattern="[0-9]*" id="tiZip" type="number"/>
+            <h4 id="rep">sec</h4>
+            <h4 id="weight">kg</h4>
+        </div>
+        <div ng-show="!currentExercise.weight && !currentExercise.time">
+            <input class="form-control" ng-model="set.rep" pattern="[0-9]*" id="tiZip" type="number"/>
+            <h4 id="sec1">rep</h4>
         </div>
     </div>
     <div class="row add">
