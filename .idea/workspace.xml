@@ -17,7 +17,7 @@
     <file path="/exercisesCtrl.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387192443346" ignored="false" />
     <file path="/modal.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387192395199" ignored="false" />
     <file path="/stateService.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387194597933" ignored="false" />
-    <file path="/newExerciseDetails.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387196592398" ignored="false" />
+    <file path="/newExerciseDetails.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387197467985" ignored="false" />
     <file path="/app.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387194217867" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +104,7 @@
       <file leaf-file-name="newExerciseDetails.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/partials/newExerciseDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="36" selection-start="298" selection-end="298" vertical-scroll-proportion="0.17673048">
+            <state line="8" column="64" selection-start="326" selection-end="326" vertical-scroll-proportion="0.17673048">
               <folding />
             </state>
           </provider>
@@ -597,7 +597,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/newExerciseDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="298" selection-end="298" vertical-scroll-proportion="0.17673048">
+        <state line="8" column="64" selection-start="326" selection-end="326" vertical-scroll-proportion="0.17673048">
           <folding />
         </state>
       </provider>
