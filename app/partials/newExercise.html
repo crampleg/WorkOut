@@ -1,0 +1,32 @@
+<div class="newExercise">
+    <div class="row">
+        <div class="col-xs-12">
+            <button class="btn btn-danger" ng-show="cancel" ng-click="redirect('newSession')">Avbryt</button>
+        </div>
+    </div>
+    <div class="row" ng-hide="exerciseDetails" ng-repeat="exercise in exercises">
+        <div class="col-xs-12">
+            <button class="btn btn-default" ng-click="setExercise(exercise.name)">{{exercise.name}}</button>
+        </div>
+    </div>
+    <div class="row" ng-show="exerciseDetails">
+        <div class="col-xs-12">
+            <h4>{{exerciseName}}</h4>
+        </div>
+        <div class="col-xs-12">
+            <input class="form-control" type="number" ng-model="exerciseSets" placeholder="Antall Set">
+        </div>
+        <div class="col-xs-12">
+            <div class="btn-group btn-group-xs">
+                <button class="btn btn-default type" ng-click="setExerciseType('time')">Tid</button>
+                <button class="btn btn-default type" ng-click="setExerciseType('weight')">Vekt</button>
+                <button class="btn btn-default type" ng-click="setExerciseType('both')">Begge</button>
+            </div>
+        </div>
+    </div>
+    <div class="row" ng-show="exerciseDetails">
+        <div class="col-xs-12">
+            <button class="btn btn-success" ng-click="enterDetails()">Neste</button>
+        </div>
+    </div>
+</div>

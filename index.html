@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="WOLog">
+<head>
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>WorkOutLog</title>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="Content/css/bootstrap.min.css">
+    <link rel="stylesheet/less" type="text/css" href="Content/css/style.less" />
+    <link rel="stylesheet" href="Content/css/style.css">
+
+    <!--scripts-->
+    <script type="text/javascript" src="Scripts/angular.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular-resource.min.js"></script>
+    <script type="text/javascript" src="Scripts/less.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-ui-1.10.3.min.js"></script>
+    <script type="text/javascript" src="Scripts/localStorageModule.js"></script>
+    <script type="text/javascript" src="Scripts/ui-bootstrap.min.js"></script>
+
+    <!--Module-->
+    <script type="text/javascript" src="app/app.js"></script>
+
+    <!--Controllers-->
+    <script type="text/javascript" src="app/controllers/menuCtrl.js"></script>
+    <script type="text/javascript" src="app/controllers/exerciseCtrl.js"></script>
+    <script type="text/javascript" src="app/controllers/addExerciseCtrl.js"></script>
+    <script type="text/javascript" src="app/controllers/newSessionCtrl.js"></script>
+    <script type="text/javascript" src="app/controllers/newExerciseCtrl.js"></script>
+
+    <!--Services-->
+    <script type="text/javascript" src="app/services/stateService.js"></script>
+
+    <!--Filters-->
+
+    <!--Directives-->
+
+</head>
+
+<body>
+<div ng-view="">
+    <!-- Container for the Partials views -->
+</div>
+</body>
+</html>
