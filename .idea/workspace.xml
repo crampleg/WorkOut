@@ -5,10 +5,10 @@
     <ignored path="WorkOut.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/menu.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387184637777" ignored="false" />
-    <file path="/style.less" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387192314487" ignored="false" />
+    <file path="/style.less" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387221190261" ignored="false" />
     <file path="/exercises.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387188196946" ignored="false" />
     <file path="/addExercise.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387184329257" ignored="false" />
-    <file path="/sessionsCtrl.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387194800886" ignored="false" />
+    <file path="/sessionsCtrl.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387219432001" ignored="false" />
     <file path="/index.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387185493485" ignored="false" />
     <file path="/sessions.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387185337201" ignored="false" />
     <file path="/newSession.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387185459708" ignored="false" />
@@ -17,8 +17,9 @@
     <file path="/exercisesCtrl.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387192443346" ignored="false" />
     <file path="/modal.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387192395199" ignored="false" />
     <file path="/stateService.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387194597933" ignored="false" />
-    <file path="/newExerciseDetails.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387197467985" ignored="false" />
-    <file path="/app.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387194217867" ignored="false" />
+    <file path="/newExerciseDetails.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387202603999" ignored="false" />
+    <file path="/app.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387203995081" ignored="false" />
+    <file path="/newExerciseResults.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387221332127" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +39,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1382" selection-end="1382" vertical-scroll-proportion="-15.166667">
+            <state line="24" column="52" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.js">
+      <file leaf-file-name="newExerciseResults.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/partials/newExerciseResults.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="52" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+            <state line="30" column="42" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.66273934">
               <folding />
             </state>
           </provider>
@@ -77,7 +78,7 @@
       <file leaf-file-name="exercises.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/exercises.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="285" selection-end="285" vertical-scroll-proportion="-4.375">
+            <state line="9" column="8" selection-start="317" selection-end="457" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -92,19 +93,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessionsCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/sessionsCtrl.js">
+      <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Content/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="46" selection-start="418" selection-end="418" vertical-scroll-proportion="-2.1818182">
+            <state line="63" column="15" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-18.6">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newExerciseDetails.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sessionsCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/sessionsCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newExerciseDetails.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/newExerciseDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="64" selection-start="326" selection-end="326" vertical-scroll-proportion="0.17673048">
+            <state line="9" column="23" selection-start="326" selection-end="326" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -114,15 +124,6 @@
         <entry file="file://$PROJECT_DIR$/app/services/stateService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="37" column="31" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newSession.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/partials/newSession.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="44" selection-start="213" selection-end="234" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
@@ -138,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/newSession.js" />
         <option value="$PROJECT_DIR$/app/controllers/newSessionCtrl.js" />
         <option value="$PROJECT_DIR$/app/partials/sessions.html" />
         <option value="$PROJECT_DIR$/app/partials/newSession.html" />
@@ -146,14 +146,15 @@
         <option value="$PROJECT_DIR$/app/controllers/addExerciseCtrl.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/partials/exercises.html" />
-        <option value="$PROJECT_DIR$/Content/css/style.less" />
         <option value="$PROJECT_DIR$/app/partials/modal.html" />
         <option value="$PROJECT_DIR$/app/controllers/exercisesCtrl.js" />
-        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/services/stateService.js" />
         <option value="$PROJECT_DIR$/app/partials/newExercise.html" />
-        <option value="$PROJECT_DIR$/app/controllers/sessionsCtrl.js" />
+        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/partials/newExerciseDetails.html" />
+        <option value="$PROJECT_DIR$/app/controllers/sessionsCtrl.js" />
+        <option value="$PROJECT_DIR$/Content/css/style.less" />
+        <option value="$PROJECT_DIR$/app/partials/newExerciseResults.html" />
       </list>
     </option>
   </component>
@@ -492,13 +493,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Content/css/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="76" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125" />
@@ -539,16 +533,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Content/css/style.less">
+    <entry file="file://$PROJECT_DIR$/app/controllers/exercisesCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="427" selection-end="427" vertical-scroll-proportion="-11.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/exercises.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="285" selection-end="285" vertical-scroll-proportion="-4.375">
+        <state line="1" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="-0.27272728">
           <folding />
         </state>
       </provider>
@@ -560,9 +547,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
+    <entry file="file://$PROJECT_DIR$/app/partials/newExercise.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="52" selection-start="791" selection-end="791" vertical-scroll-proportion="0.0">
+        <state line="9" column="57" selection-start="0" selection-end="523" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/exercises.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="317" selection-end="457" vertical-scroll-proportion="-5.625">
           <folding />
         </state>
       </provider>
@@ -574,30 +568,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/exercisesCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="-0.27272728">
+        <state line="24" column="52" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sessionsCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="46" selection-start="418" selection-end="418" vertical-scroll-proportion="-2.1818182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/newExercise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="0" selection-end="523" vertical-scroll-proportion="-5.625">
+        <state line="20" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/newExerciseDetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="64" selection-start="326" selection-end="326" vertical-scroll-proportion="0.17673048">
+        <state line="9" column="23" selection-start="326" selection-end="326" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Content/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="15" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-18.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/newExerciseResults.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="42" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.66273934">
           <folding />
         </state>
       </provider>

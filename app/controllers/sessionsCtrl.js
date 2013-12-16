@@ -2,11 +2,42 @@ function sessionsCtrl($scope, $location, $modal, stateService){
 
     $scope.exercises = stateService.functions.getExercises();
     $scope.currentExercise = stateService.functions.getCurrentExercise();
+    $scope.time = false;
+    $scope.weight = false;
+    $scope.sets = 0;
 
     $scope.setCurrentExercise = function(exercise){
         $scope.currentExercise = exercise;
         stateService.functions.setCurrentExercise($scope.currentExercise);
         $scope.redirect('newExerciseDetails');
+    };
+
+    $scope.toResults = function() {
+        $scope.currentExercise.time = $scope.time;
+        $scope.currentExercise.weight = $scope.weight;
+        var sets = $scope.currentExercise.sets = [];
+        for (var i=0;i<$scope.sets;i++){
+            var s = "Set " + (i+1);
+            sets.push({"setName":s});
+        }
+        console.log($scope.currentExercise);
+        stateService.functions.setCurrentExercise($scope.currentExercise);
+        $scope.redirect('newExerciseResults');
+    };
+
+    $scope.setType = function(type){
+        $scope.time = false;
+        $scope.weight = false;
+        if(type == 'time'){
+            $scope.time = true;
+        }
+        else if (type == 'weight'){
+            $scope.weight = true;
+        }
+        else {
+            $scope.time = true;
+            $scope.weight = true;
+        }
     };
 
     $scope.showModal = function(){

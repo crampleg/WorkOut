@@ -21,6 +21,9 @@ WOLog.config(function ($routeProvider){
     }).when("/newExerciseDetails", {
         templateUrl:"app/partials/newExerciseDetails.html",
         controller:"sessionsCtrl"
+    }).when("/newExerciseResults", {
+        templateUrl:"app/partials/newExerciseResults.html",
+        controller:"sessionsCtrl"
     }).otherwise({
         redirectTo:"/"
     })
