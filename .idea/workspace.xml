@@ -4,12 +4,12 @@
     <list default="true" id="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" name="Default" comment="" />
     <ignored path="WorkOut.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/menu.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387184637777" ignored="false" />
-    <file path="/style.less" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387223452112" ignored="false" />
+    <file path="/menu.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387636188112" ignored="false" />
+    <file path="/style.less" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387636478017" ignored="false" />
     <file path="/exercises.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387188196946" ignored="false" />
     <file path="/addExercise.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387184329257" ignored="false" />
     <file path="/sessionsCtrl.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387222978209" ignored="false" />
-    <file path="/index.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387185493485" ignored="false" />
+    <file path="/index.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387448388089" ignored="false" />
     <file path="/sessions.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387185337201" ignored="false" />
     <file path="/newSession.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387185459708" ignored="false" />
     <file path="/newSessionCtrl.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387185289558" ignored="false" />
@@ -17,9 +17,10 @@
     <file path="/exercisesCtrl.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387192443346" ignored="false" />
     <file path="/modal.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387192395199" ignored="false" />
     <file path="/stateService.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387194597933" ignored="false" />
-    <file path="/newExerciseDetails.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387223418883" ignored="false" />
+    <file path="/newExerciseDetails.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387451054356" ignored="false" />
     <file path="/app.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387203995081" ignored="false" />
     <file path="/newExerciseResults.html" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387223101226" ignored="false" />
+    <file path="/homeCtrl.js" changelist="2abaa61b-b4c8-47a2-b51c-f2b3def585f6" time="1387454259872" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="52" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
+            <state line="7" column="28" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -51,7 +52,7 @@
       <file leaf-file-name="newExerciseResults.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/newExerciseResults.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-17.5">
+            <state line="28" column="0" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-7.75">
               <folding />
             </state>
           </provider>
@@ -66,37 +67,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newExercise.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/partials/newExercise.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="57" selection-start="0" selection-end="523" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exercises.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/partials/exercises.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="317" selection-end="457" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exercisesCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/exercisesCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="-0.27272728">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Content/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="20" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.30973452">
+            <state line="48" column="22" selection-start="839" selection-end="845" vertical-scroll-proportion="0.18575852">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/partials/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="99" column="0" selection-start="3118" selection-end="3118" vertical-scroll-proportion="-1.8481013">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="16" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-11.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/homeCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="19" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,7 +106,7 @@
       <file leaf-file-name="sessionsCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/sessionsCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="33" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
+            <state line="29" column="6" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,7 +115,7 @@
       <file leaf-file-name="newExerciseDetails.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/newExerciseDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="730" selection-end="730" vertical-scroll-proportion="-11.25">
+            <state line="21" column="61" selection-start="854" selection-end="861" vertical-scroll-proportion="-6.5">
               <folding />
             </state>
           </provider>
@@ -139,28 +140,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/newSessionCtrl.js" />
-        <option value="$PROJECT_DIR$/app/partials/sessions.html" />
         <option value="$PROJECT_DIR$/app/partials/newSession.html" />
         <option value="$PROJECT_DIR$/app/controllers/newExercise.js" />
         <option value="$PROJECT_DIR$/app/controllers/addExerciseCtrl.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/partials/exercises.html" />
         <option value="$PROJECT_DIR$/app/partials/modal.html" />
         <option value="$PROJECT_DIR$/app/controllers/exercisesCtrl.js" />
         <option value="$PROJECT_DIR$/app/services/stateService.js" />
         <option value="$PROJECT_DIR$/app/partials/newExercise.html" />
-        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/controllers/sessionsCtrl.js" />
         <option value="$PROJECT_DIR$/app/partials/newExerciseResults.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/partials/newExerciseDetails.html" />
+        <option value="$PROJECT_DIR$/app/controllers/homeCtrl.js" />
+        <option value="$PROJECT_DIR$/app/partials/menu.html" />
         <option value="$PROJECT_DIR$/Content/css/style.less" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="448" />
     <option name="y" value="22" />
-    <option name="width" value="1440" />
+    <option name="width" value="990" />
     <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -189,6 +191,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -323,19 +326,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -411,15 +413,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="448" y="22" width="990" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16584334" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39920425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24301966" sideWeight="0.602122" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.397878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -427,6 +428,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -493,23 +495,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/partials/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="76" selection-start="262" selection-end="262" vertical-scroll-proportion="-3.125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/sessions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="74" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/ui-bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
@@ -521,21 +509,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/newSession.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="213" selection-end="234" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1382" selection-end="1382" vertical-scroll-proportion="-15.166667">
-          <folding />
-        </state>
+        <state line="5" column="44" selection-start="213" selection-end="234" vertical-scroll-proportion="-3.125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/exercisesCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="-0.27272728">
+        <state line="1" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/newExercise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="57" selection-start="0" selection-end="523" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/exercises.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="8" selection-start="317" selection-end="457" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -547,16 +538,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/newExercise.html">
+    <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="0" selection-end="523" vertical-scroll-proportion="-5.625">
+        <state line="7" column="28" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/exercises.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="317" selection-end="457" vertical-scroll-proportion="-5.625">
+        <state line="40" column="16" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/newExerciseResults.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-7.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/newExerciseDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="61" selection-start="854" selection-end="861" vertical-scroll-proportion="-6.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessionsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="6" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="19" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -568,37 +587,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
+    <entry file="file://$PROJECT_DIR$/app/partials/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="52" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/newExerciseResults.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1524" selection-end="1524" vertical-scroll-proportion="-17.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessionsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="33" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/newExerciseDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="730" selection-end="730" vertical-scroll-proportion="-11.25">
+        <state line="99" column="0" selection-start="3118" selection-end="3118" vertical-scroll-proportion="-1.8481013">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Content/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="20" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.30973452">
+        <state line="48" column="22" selection-start="839" selection-end="845" vertical-scroll-proportion="0.18575852">
           <folding />
         </state>
       </provider>

@@ -5,7 +5,7 @@ var WOLog = angular.module('WOLog', ['ui.bootstrap']);
 WOLog.config(function ($routeProvider){
     $routeProvider.when("/", {
         templateUrl:"app/partials/menu.html",
-        controller:"menuCtrl"
+        controller:"homeCtrl"
     }).when("/exercises", {
         templateUrl:"app/partials/exercises.html",
         controller:"exercisesCtrl"
