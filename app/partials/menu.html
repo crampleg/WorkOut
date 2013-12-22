@@ -14,11 +14,12 @@
         <button class="btn btn-green" id="calendar-view-btn" ng-click="setView('calendar')">Calendar</button>
         <button class="btn btn-green pressed" id="list-view-btn" ng-click="setView('list')">List</button>
     </div>
-    <div class="calendar-view" ng-show="isCalendarView">
-        <h2>Calendar View</h2>
-    </div>
+
     <div class="new-session-btn nephritis-flat-button" ng-click="redirect('/newSession')">
         + new session
+    </div>
+    <div class="calendar-view" ng-show="isCalendarView">
+        <h2>Calendar View</h2>
     </div>
     <div class="container list-view" ng-hide="isCalendarView">
         <div class="session row">

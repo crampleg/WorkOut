@@ -37,14 +37,25 @@ body {
     background-size: 40px 40px!important;
     background-position: center!important;
   }
+
+  .save-btn {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    background: #27ae60 url('../img/save.png')no-repeat!important;
+    background-size: 40px 40px!important;
+    background-position: center!important;
+  }
 }
 .home {
   width: 100%;
-  height: 80%;
+  height: 100%;
   text-align: center;
   .btn-group {
-    width: 95%;
-    padding-top: 10px;
+    width: 100%;
+    padding: 10px;
     display: inline-block;
     .btn-green {
       width: 50%;
@@ -59,12 +70,12 @@ body {
     }
   }
   .list-view {
+    position: absolute;
+    top: 165px;
+    bottom: 0;
     border-top: 1px #2c3e50 solid;
     overflow-y: scroll;
     width: 100%;
-    position: relative;
-    bottom: 0;
-    height: 100%;
     padding-bottom: 50px;
     .session {
       margin-top: 5px;
@@ -100,7 +111,7 @@ body {
 }
 .new-session-btn {
   width: 100%;
-  margin-top: 10px;
+  margin-bottom: 10px;
   height: 40px;
   padding-top: 5px!important;
 }
@@ -141,13 +152,12 @@ body {
     }
   }
   .list-view {
+    position: absolute;
+    top: 180px;
+    bottom: 0;
     border-top: 1px #2c3e50 solid;
     overflow-y: scroll;
-    //height: 85%;
     width: 100%;
-    position: relative;
-    bottom: 0;
-    height: 100%;
     padding-bottom: 50px;
     .exerciseName {
       padding-top: 5px;
