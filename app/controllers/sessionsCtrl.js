@@ -1,5 +1,13 @@
 function sessionsCtrl($scope, $location, $modal, stateService){
 
+
+
+    $(function() {
+        $( "#accordion" ).accordion({
+            collapsible: true
+        });
+    });
+    /**/
     $scope.exercises = stateService.functions.getExercises();
     $scope.currentExercise = stateService.functions.getCurrentExercise();
     $scope.time = false;
